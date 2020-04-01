@@ -2,37 +2,114 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: rgb(89, 142, 175);
+  background-image: url("https://ereimers-sound.com/wp-content/uploads/2014/05/Movie-theater-Dark1.jpg");
+  color: rgb(245, 219, 228);
+  font-family: 'Source Code Pro', monospace;;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Header {
+  background-color: transparent;
+  height: 15vh;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 31px;
+  color: rgb(236, 229, 231);
+  /* transform: scale(1.5); */
+  
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header:hover{
+  /* transform: rotate(180deg);
+  transform-origin: center; */
+  transform: scale(1, 1.5);
+}
+.searchMovie:hover{
+  transform: rotate(10deg);
+}
+.title1:hover{
+  transform: rotate(-10deg);
+}
+.display:hover{
+  transform: scale(1,1.2);
+}
+
+.searchMovie{
+  color: rgb(245, 219, 228);
+  margin-right: 560px;
+  font-size: 50px;
+  text-decoration: underline ;
+  font-family: 'Source Code Pro', monospace;
+  margin-top: 80px;
+ 
+}
+
+.movies{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.search {
+  margin-left: 350px;
+  height: 40px;
+  width: 300px;
+  /* display: flex */
+  display: flex;
+
+
+}
+.button {
+background: transparent;
+ color: rgb(245, 219, 228);
+ border: none;
+ font-family: 'Source Code Pro', monospace;
+align-items: flex-start;
+margin-top: 30px;
+margin-right: 568px;
+font-size: 17px;
+text-decoration: none;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:hover{
+  background-color: rgb(180, 40, 40);
+}
+
+.display{
+/* text-decoration: underline; */
+margin-left: 840px;
+margin-top: 0px;
+font-size: 39px;
+display: flex;
+font-family:'Fjalla One', sans-serif;;
+color: rgb(236, 229, 231);
+
+}
+
+
+
+.title1{
+ font-size: 48px;
+ text-decoration: underline;
+ margin-left: 380px;
+ 
+}
+
+.deleteButton {
+  background: transparent;
+  color: rgb(245, 219, 228);
+  border: none;
+  font-size: 15px;
+  text-decoration: none;
+ align-items: center;
+}
+
+.bar{
+  margin-left: 30px;
+  margin-right: 30px;
+  box-decoration-break: initial;
+  color: rgb(236, 229, 231);
 }

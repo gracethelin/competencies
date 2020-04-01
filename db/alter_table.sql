@@ -1,0 +1,5 @@
+ALTER TABLE customers
+ADD email VARCHAR(200)
+
+ALTER TABLE customers
+DROP COLUMN Email;
